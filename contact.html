@@ -17,7 +17,7 @@
     <!-- meta character set -->
     <meta charset="UTF-8" />
     <!-- Site Title -->
-    <title>Metaloop</title>
+    <title>Metaloop Technologies</title>
 
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
@@ -48,24 +48,22 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li class="menu-has-children">
-                <a href="services.html">Services</a>
+                <a href="#">Services</a>
                 <ul>
+                  <li><a href="web-services.html">Web Development</a></li>
                   <li>
-                    <a href="wordpress-development.html"
-                      >Wordpress Development</a
+                    <a href="ecommerce-services.html">Ecommerce Services</a>
+                  </li>
+                  <li>
+                    <a href="socialmedia-services.html"
+                      >Social Media Services</a
                     >
                   </li>
-                  <li><a href="react-dev.html">React Development</a></li>
-                  <li><a href="php-dev.html">Php Development</a></li>
-                  <li><a href="html-dev.html">HTML Development</a></li>
-                  <li><a href="bootstrap.html">Bootstrap Development</a></li>
-                  <li><a href="database-mgt.html">Database Management</a></li>
                 </ul>
               </li>
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="faq.html">FAQ</a></li>
               <li><a href="contact.html">Contact</a></li>
-              
             </ul>
           </nav>
           <!-- #nav-menu-container -->
@@ -103,7 +101,7 @@
               </div>
               <div class="contact-details">
                 <h5>Delhi, India</h5>
-                <p>Krishna Park, Saket</p>
+                <p>Saket</p>
               </div>
             </div>
             <div class="single-contact-address d-flex flex-row">
@@ -112,7 +110,7 @@
               </div>
               <div class="contact-details">
                 <h5>+91 9560183252</h5>
-                <p>Mon to Fri 9am to 6 pm</p>
+                <p>Mon to Sat 9am to 6 pm</p>
               </div>
             </div>
             <div class="single-contact-address d-flex flex-row">
@@ -129,6 +127,7 @@
             <form
               class="form-area contact-form text-right"
               id="myForm"
+              onsubmit=""
               name="google-sheet"
             >
               <div class="row">
@@ -176,8 +175,12 @@
                 </div>
                 <div class="col-lg-12">
                   <div class="alert-msg" style="text-align: left"></div>
-                  <button class="genric-btn primary" type="submit" style="float: right">
-                    Send Message
+                  <button
+                    class="genric-btn primary"
+                    type="submit"
+                    style="float: right"
+                  >
+                    Send message!
                   </button>
                 </div>
               </div>
@@ -210,7 +213,7 @@
               </p>
               <p>Let us be social</p>
               <div class="footer-social d-flex align-items-center">
-                <a href="https://www.facebook.com/Metaloop-Technologies-102723648932975"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="https://twitter.com/MetaloopT"
                   ><i class="fa fa-twitter"></i
                 ></a>
@@ -227,7 +230,6 @@
               <div class="">
                 <ul class="unordered-list">
                   <a class="whitolo" href="about.html"><li>About</li></a>
-                  <a class="whitolo" href="services.html"><li>Services</li></a>
                   <a class="whitolo" href="portfolio.html"
                     ><li>Portfolio</li></a
                   >
@@ -248,23 +250,20 @@
               <h4>Our Services</h4>
               <div class="">
                 <ul class="unordered-list">
-                  <a class="whitolo" href="wordpress-development.html"
-                    ><li>Wordpress Development</li></a
+                  <a class="whitolo" href="webdev.html"
+                    ><li>Website Development</li></a
                   >
-                  <a class="whitolo" href="react-dev.html"
-                    ><li>React Development</li></a
+                  <a class="whitolo" href="ecommerce-web-development.html"
+                    ><li>Ecommerce Development</li></a
                   >
-                  <a class="whitolo" href="php-dev.html"
-                    ><li>Php Development</li></a
+                  <a class="whitolo" href="socialmedia-services.html"
+                    ><li>Social Media Services</li></a
                   >
-                  <a class="whitolo" href="html-dev.html"
-                    ><li>HTML Development</li></a
+                  <a class="whitolo" href="amzservices.html"
+                    ><li>Ecommerce Services</li></a
                   >
-                  <a class="whitolo" href="bootstrap.html"
-                    ><li>Bootstrap Development</li></a
-                  >
-                  <a class="whitolo" href="database-mgt.html"
-                    ><li>Database Management</li></a
+                  <a class="whitolo" href="amzservices.html"
+                    ><li>Amazon Ecommerce Services</li></a
                   >
                 </ul>
               </div>
@@ -278,13 +277,14 @@
                   <i class="fa fa-map-marker"></i> Saket, Delhi, India
                 </li>
                 <a class="whitolo" href="tel:9560183252">
-                <li>
-                  <i class="fa fa-phone"></i> +91-9560183252
-                </li></a>
+                  <li><i class="fa fa-phone"></i> +91-9560183252</li></a
+                >
                 <a class="whitolo" href="mailto:metalooptechnologies@gmail.com">
-                <li>
-                  <i class="fa fa-envelope"></i> metalooptechnologies@gmail.com
-                </li></a>
+                  <li>
+                    <i class="fa fa-envelope"></i>
+                    metalooptechnologies@gmail.com
+                  </li></a
+                >
               </ul>
             </div>
           </div>
@@ -292,6 +292,24 @@
       </div>
     </footer>
     <!-- End footer Area -->
+    <!------- social icon code start here ------->
+    <section id="social-icons">
+      <a href="https://www.facebook.com/metalooptechnologies/" target="_blank"
+        ><img src="img/facebook.png"
+      /></a>
+      <a href="https://www.instagram.com/metalooptechnologies/" target="_blank"
+        ><img src="img/insta.png"
+      /></a>
+      <a href="https://twitter.com/MetaloopT" target="_blank"
+        ><img src="img/twitter.png"
+      /></a>
+      <a
+        href="https://www.linkedin.com/company/metaloop-technologies"
+        target="_blank"
+        ><img src="img/linkedin.png"
+      /></a>
+    </section>
+    <!-- Code end here -->
 
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -313,14 +331,23 @@
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbyjsG_TskCNa4wF5_0wwTLxt0RVUGpuJja3llTZhwlabJI-SPej7tIv5-fkOgAPGkjrQg/exec";
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyjsG_TskCNa4wF5_0wwTLxt0RVUGpuJja3llTZhwlabJI-SPej7tIv5-fkOgAPGkjrQg/exec";
       const form = document.forms["google-sheet"];
 
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
-        .then(response => $("#form_alerts").html("<div class='alert alert-success'>Contact message sent successfully.</div>"))
-            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Contact message not sent.</div>"))
+          .then((response) =>
+            $("#form_alerts").html(
+              "<div class='alert alert-success'>Contact message sent successfully.</div>"
+            )
+          )
+          .catch((error) =>
+            $("#form_alerts").html(
+              "<div class='alert alert-danger'>Contact message not sent.</div>"
+            )
+          );
       });
     </script>
   </body>
